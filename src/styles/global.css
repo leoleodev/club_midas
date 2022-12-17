@@ -24,19 +24,16 @@ body{
 
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2{
     font-family: 'Russo One', sans-serif;
     font-size: 2.2rem;
 }
+h3, h4, h5, h6{
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.9rem;
+}
 p{
     color: var(--secubdaryTexts);
-}
-.subTitle{
-    font-family: 'Yellowtail', cursive;
-    font-size: 1.2rem;
-}
-.logo{
-    color: var(--midasYellow);
 }
 
 

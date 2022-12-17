@@ -14,6 +14,14 @@ export const Titles = styled.div`
 
         background: teal;
     }
+    .logo{
+        color: var(--midasYellow);
+    }
+    .subTitle{
+        font-family: 'Yellowtail', cursive;
+        font-size: 1.2rem;
+        letter-spacing: 0.09rem;
+    }
     
 `;
 
