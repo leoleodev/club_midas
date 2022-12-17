@@ -11,6 +11,7 @@
     --midasYellow: #CE990D;
     --midasGrey: #D9D9D9;
     --midasWhite: #ffffff;
+    --secubdaryTexts: #6D6D6D;
 }
 
 body{
@@ -27,6 +28,9 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Russo One', sans-serif;
     font-size: 2.2rem;
 }
+p{
+    color: var(--secubdaryTexts);
+}
 .subTitle{
     font-family: 'Yellowtail', cursive;
     font-size: 1.2rem;
@@ -35,15 +39,7 @@ h1, h2, h3, h4, h5, h6{
     color: var(--midasYellow);
 }
 
-header{
-    width: 100%;
-    height: 15vh;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 main{
     width: 100%;
     height: 80vh;
