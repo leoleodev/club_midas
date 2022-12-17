@@ -12,7 +12,7 @@ export const Titles = styled.div`
         align-items: center;
         justify-content: center;
 
-        background: teal;
+        /* background: teal; */
     }
     .logo{
         color: var(--midasYellow);

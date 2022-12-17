@@ -1,4 +1,5 @@
 import { Header } from "../compoments/Header";
+import { Main } from "../compoments/Main";
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
         <Header />
       </header>
       <main>
-
+        <Main />
       </main>
       <footer>
         
