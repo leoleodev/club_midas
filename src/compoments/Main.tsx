@@ -32,31 +32,47 @@ main{
 .section1{
     width: 100%;
     height: 100%;
-
-    padding: 1rem 0 1rem 1rem;
-
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
-    h2{
+    .space{
+        width: 100%;
+        height: 15%;
+
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        h3{
+            color: var(--midasWhite);
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 0.1rem;
+            margin-right: 2rem;
+        }
+    }
+
+    .marquee{
         height: 70%;
-        padding: 0 4rem 0 2rem;
-        text-align: right;
         border-right: 1px solid var(--midasWhite);
 
         display: flex;
-        flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
         justify-content: center;
-        
-        color: var(--midasYellow);
 
-        span{
-            color: var(--midasWhite);
+        h2{
+            text-align: right;
+            margin: 0 2rem 0 2rem;
+            color: var(--midasYellow);
+            span{
+                color: var(--midasWhite);
+            }
         }
-
     }
+
+    
 }
 
 .section2{
@@ -66,13 +82,6 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-
-    form{
-        width: 80%;
-        height: 90%;       
-
-        background: var(--midasYellow);
-    }
 
 }
 
@@ -85,11 +94,15 @@ export function Main(){
             <main>
                 <div className="widthConatinerMain">
                     <section className='section1'>
-                        <h2>
-                            Seja membro do <span>Club MIDAS</span> e obtenha descontos de 
-                            combustível e outros benefícos
-                        </h2>
-                        
+                        <div className="space"></div>
+                        <div className="marquee">
+                            <h2>
+                                Seja membro do <span>Club MIDAS</span> e obtenha descontos de 
+                                combustível e outros benefícos
+                            </h2>
+                        </div>
+                        <div className="space"> <h3>Saiba mais</h3> </div>
+
                     </section>
                     
                     <section className="section2">
@@ -98,7 +111,7 @@ export function Main(){
 
                     </section>
                 </div>
-                <h4>saiba mais</h4>                
+                                
             </main>
         </Content>
     )
