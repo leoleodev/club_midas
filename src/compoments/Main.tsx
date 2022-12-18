@@ -43,7 +43,7 @@ main{
         width: 100%;
         height: 20%;
         img{
-            width: 2.5rem;
+            width: 2rem;
         }
 
         display: flex;
@@ -52,7 +52,7 @@ main{
 
         h3{
             color: var(--midasWhite);
-            font-size: 1.2rem;
+            font-size: 1rem;
             font-weight: 400;
             letter-spacing: 0.09rem;
             margin-right: 2rem;
@@ -90,7 +90,7 @@ main{
     align-items: center;
     justify-content: center;
 
-    background: red;
+    background: #d498023a;
 
 }
 
@@ -109,7 +109,7 @@ export function Main(){
                                 combustível e outros benefícos
                             </h2>
                         </div>
-                        <div className="space"> <h3>Saiba mais <img src={iconInfo} alt="" /> </h3> </div>
+                        <div className="space"> <h3>saiba mais <img src={iconInfo} alt="icon de informação" /> </h3> </div>
 
                     </section>
                     
