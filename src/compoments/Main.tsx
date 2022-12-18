@@ -1,6 +1,8 @@
 
 import styled from 'styled-components';
 
+import iconInfo from '../images/iconInfo.svg';
+
 export const Content = styled.div`
 
 main{
@@ -39,7 +41,10 @@ main{
 
     .space{
         width: 100%;
-        height: 15%;
+        height: 20%;
+        img{
+            width: 2.5rem;
+        }
 
         display: flex;
         align-items: flex-end;
@@ -49,15 +54,17 @@ main{
             color: var(--midasWhite);
             font-size: 1.2rem;
             font-weight: 400;
-            letter-spacing: 0.1rem;
+            letter-spacing: 0.09rem;
             margin-right: 2rem;
+
+            display: flex;
+            align-items: center;
         }
     }
 
     .marquee{
-        height: 70%;
+        height: 60%;
         border-right: 1px solid var(--midasWhite);
-
         display: flex;
         align-items: center;
         justify-content: center;
@@ -83,8 +90,9 @@ main{
     align-items: center;
     justify-content: center;
 
-}
+    background: red;
 
+}
 
 `;
 
@@ -101,13 +109,13 @@ export function Main(){
                                 combustível e outros benefícos
                             </h2>
                         </div>
-                        <div className="space"> <h3>Saiba mais</h3> </div>
+                        <div className="space"> <h3>Saiba mais <img src={iconInfo} alt="" /> </h3> </div>
 
                     </section>
                     
                     <section className="section2">
 
-                        <form action=""></form>
+                        
 
                     </section>
                 </div>
