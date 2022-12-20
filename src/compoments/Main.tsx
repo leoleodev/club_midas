@@ -1,6 +1,6 @@
 
 import styled from 'styled-components';
-
+import { Form } from "../compoments/Form";
 import iconInfo from '../images/iconInfo.svg';
 
 export const Content = styled.div`
@@ -90,7 +90,7 @@ main{
     align-items: center;
     justify-content: center;
 
-    background: #d498023a;
+    background: #f2f2;
 
 }
 
@@ -115,7 +115,7 @@ export function Main(){
                     
                     <section className="section2">
 
-                        
+                        <Form />
 
                     </section>
                 </div>
