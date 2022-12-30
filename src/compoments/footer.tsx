@@ -13,13 +13,11 @@ footer{
 
     h5{
         color: var(--midasWhite);
-        font-family: 'Yellowtail', cursive;
-        font-size: 0.8rem;
+        font-family: 'Russo One', sans-serif;
+        font-size: 0.7rem;
         font-weight: 200;
         letter-spacing: 0.1rem;
-    }
-
-    
+    }   
 
 }
 
