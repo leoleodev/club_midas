@@ -1,13 +1,12 @@
 
 import styled from 'styled-components';
-import { Form } from "../compoments/Form";
 import iconInfo from '../images/iconInfo.svg';
 
 export const Content = styled.div`
 
 main{
     width: 100%;
-    height: 80vh;
+    height: 77vh;
 
     display: flex;
     flex-direction: column;
@@ -87,11 +86,62 @@ main{
     height: 100%;
 
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 
-    background: #f2f2;
+    .areaForm{
+        width: 80%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        background: var(--midasYellow);
+
+        h2{
+            margin: 1.5rem 0;
+        }
+    }
+
+    form{
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        input{
+            width: 70%;
+            height: 3rem;
+            border: none;
+            border-radius: 0 10px 0 10px;
+            padding: 0 1rem;
+            font-family: 'Russo One', sans-serif;
+            font-size: 1rem;            
+        }
+        button{
+            width: 70%;
+            height: 3rem;
+            border: none;
+            border-radius: 0 10px 0 10px;
+            background: var(--midasBlack);
+            color: var(--midasWhite);
+            font-family: 'Russo One', sans-serif;
+            font-size: 1rem;
+            font-weight: 200;
+            letter-spacing: 0.1rem;
+            transition: 0.7s;
+        }
+        button:hover{
+            color: var(--midasYellow);
+            cursor: pointer;
+        }
+    }
 
 }
 
@@ -116,8 +166,21 @@ export function Main(){
                     
                     <section className="section2">
 
-                        <Form />
+                        <div className="areaForm">                            
+                            <h2>
+                                Cadastre-se aqui!
+                            </h2>
 
+                            <form>
+                                <input type="text" name="name" id="name" placeholder='Nome:'/>
+                                <input type="number" name="cpf" id="cpf" placeholder="CPF:" />
+                                <input type="number" name="rg" id="rg" placeholder="RG:" />
+                                <input type="email" name="email" id="email" placeholder='Email'/>
+                                <input type="tel" name="tel" id="tel" placeholder="Telefone" />
+
+                                <button type="button" id="buttonSubmit">CADASTRAR</button>
+                            </form>
+                        </div>
                     </section>
                 </div>
                                 
