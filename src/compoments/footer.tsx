@@ -17,7 +17,7 @@ footer{
         font-size: 0.7rem;
         font-weight: 200;
         letter-spacing: 0.1rem;
-    }   
+    }
 
 }
 

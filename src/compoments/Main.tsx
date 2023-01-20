@@ -55,9 +55,13 @@ main{
             font-weight: 400;
             letter-spacing: 0.09rem;
             margin-right: 2rem;
-
+            transition: 0.5s;
             display: flex;
             align-items: center;
+        }
+        h3:hover{
+            cursor: pointer;
+            color: var(--midasYellow);
         }
     }
 
@@ -102,7 +106,7 @@ main{
         background: var(--midasYellow);
 
         h2{
-            margin: 1.5rem 0;
+            margin: 1.5rem 0 0 0;
         }
     }
 
@@ -127,6 +131,7 @@ main{
         button{
             width: 70%;
             height: 3rem;
+            margin-top: 0.5rem;
             border: none;
             border-radius: 0 10px 0 10px;
             background: var(--midasBlack);
@@ -135,7 +140,7 @@ main{
             font-size: 1rem;
             font-weight: 200;
             letter-spacing: 0.1rem;
-            transition: 0.7s;
+            transition: 0.5s;
         }
         button:hover{
             color: var(--midasYellow);
