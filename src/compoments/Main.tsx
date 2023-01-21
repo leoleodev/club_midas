@@ -6,7 +6,7 @@ export const Content = styled.div`
 
 main{
     width: 100%;
-    height: 77vh;
+    height: 80vh;
 
     display: flex;
     flex-direction: column;
@@ -145,6 +145,57 @@ main{
         button:hover{
             color: var(--midasYellow);
             cursor: pointer;
+        }
+    }
+
+}
+
+
+@media(max-width: 1080px){
+
+    main{
+
+        height: 150vh;
+
+        .widthConatinerMain{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .space{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .marquee{
+                border: none;
+            }
+
+            .section1 .marquee h2{
+                text-align: center;
+            }
+        }
+
+        .section2 .areaForm{
+            width: 95%;
+        }
+
+    }
+
+}
+
+@media(max-width: 720px){
+
+}
+
+@media(max-width: 600px){
+
+    .widthConatinerMain{
+        width: 100%;
+
+        .section1 .marquee h2{
+            text-align: justify;
         }
     }
 
