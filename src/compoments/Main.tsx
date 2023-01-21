@@ -17,7 +17,7 @@ export function Main(){
                             </h2>
                         </div>
                         <div className="space"> <h3>saiba mais <img src={iconInfo} alt="icon de informação" /> </h3> </div>
-
+                        {/* evento de click para abrir a tela de termos e condições */}
                     </section>
                     
                     <section className="section2">
