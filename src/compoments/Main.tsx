@@ -187,6 +187,16 @@ main{
 
 @media(max-width: 720px){
 
+    main{
+
+    .widthConatinerMain{
+
+        .section1 .marquee h2{
+            text-align: justify;
+        }
+    }
+}
+
 }
 
 @media(max-width: 600px){
@@ -194,9 +204,6 @@ main{
     .widthConatinerMain{
         width: 100%;
 
-        .section1 .marquee h2{
-            text-align: justify;
-        }
     }
 
 }
