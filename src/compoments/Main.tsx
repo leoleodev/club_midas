@@ -4,6 +4,13 @@ import iconInfo from '../images/iconInfo.svg';
 import { Content } from '../styles/main';
 
 export function Main(){
+
+
+    function saibaMais(){
+        console.log("saiba mais")
+    }
+    
+
     return(
         <Content>
             <main>
@@ -16,7 +23,7 @@ export function Main(){
                                 combustível e outros benefícos
                             </h2>
                         </div>
-                        <div className="space"> <h3>saiba mais <img src={iconInfo} alt="icon de informação" /> </h3> </div>
+                        <div onClick={saibaMais} className="space"> <h3>saiba mais <img src={iconInfo} alt="icon de informação" /> </h3> </div>
                         {/* evento de click para abrir a tela de termos e condições */}
                     </section>
                     
