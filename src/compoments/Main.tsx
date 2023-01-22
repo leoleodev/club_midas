@@ -8,7 +8,7 @@ export function Main(){
         <Content>
             <main>
                 <div className="widthConatinerMain">
-                    <section className='section1'>
+                    <section className='section1'>  
                         <div className="space"></div>
                         <div className="marquee">
                             <h2>

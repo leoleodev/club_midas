@@ -164,6 +164,14 @@ main{
                 display: flex;
                 justify-content: center;
                 align-items: center;
+
+                h3{
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                }
+
             }
 
             .marquee{
@@ -185,15 +193,7 @@ main{
 
 @media(max-width: 720px){
 
-    main{
-
-    .widthConatinerMain{
-
-        .section1 .marquee h2{
-            text-align: justify;
-        }
-    }
-}
+    
 
 }
 
