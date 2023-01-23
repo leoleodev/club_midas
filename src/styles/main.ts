@@ -124,7 +124,21 @@ main{
             border-radius: 0 10px 0 10px;
             padding: 0 1rem;
             font-family: 'Russo One', sans-serif;
-            font-size: 1rem;            
+            font-size: 1rem;
+            text-transform: uppercase;
+            
+            ::-webkit-input-placeholder  {
+                color: var(--secubdaryTexts);
+                font-size: 0.95rem;
+            }
+            input:-moz-placeholder {
+                color: var(--secubdaryTexts);
+                font-size: 0.95rem;
+            }
+            textarea:-moz-placeholder {
+                color: var(--secubdaryTexts);
+                font-size: 0.95rem;
+            }
         }
         button{
             width: 70%;
